@@ -17,6 +17,10 @@ public class TestGit {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("This is main Test Git");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("this is : "+i);
+            
+        }
     }
     
 }

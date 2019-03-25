@@ -18,8 +18,11 @@ public class TestGit {
         // TODO code application logic here
         System.out.println("This is main Test Git");
         int array[] = new int[3];
+        array[1]=1;
+        array[2]=2;
+        array[0]=0;
         for (int i = 0; i < array.length; i++) {
-            System.out.println("this is : "+ array[i+1]);
+            System.out.println("this is : "+ array[i]);
             
         }
     }
